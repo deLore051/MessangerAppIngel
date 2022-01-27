@@ -18,6 +18,15 @@
 		044CE5F427A28D45003CFABC /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5F327A28D45003CFABC /* DiscoverViewController.swift */; };
 		044CE5F627A28D55003CFABC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5F527A28D55003CFABC /* ProfileViewController.swift */; };
 		044CE5F827A294D1003CFABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044CE5F727A294D1003CFABC /* GoogleService-Info.plist */; };
+		044CE5FA27A2B6B9003CFABC /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5F927A2B6B9003CFABC /* ErrorManager.swift */; };
+		044CE5FC27A2B6C5003CFABC /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5FB27A2B6C5003CFABC /* AuthManager.swift */; };
+		044CE5FE27A2B6F0003CFABC /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5FD27A2B6F0003CFABC /* FirestoreManager.swift */; };
+		044CE60027A2B705003CFABC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE5FF27A2B705003CFABC /* StorageManager.swift */; };
+		044CE60227A2B714003CFABC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE60127A2B714003CFABC /* DatabaseManager.swift */; };
+		044CE60427A2B731003CFABC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE60327A2B731003CFABC /* Constants.swift */; };
+		044CE60627A2B73E003CFABC /* UIButton+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE60527A2B73E003CFABC /* UIButton+Additions.swift */; };
+		044CE60827A2BB2B003CFABC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE60727A2BB2B003CFABC /* User.swift */; };
+		044CE60A27A2BDDC003CFABC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE60927A2BDDC003CFABC /* TabBarViewController.swift */; };
 		0DA7D1B4C9CF7DC1086DA215 /* Pods_MessangerAppIngel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF2F23CD5DBDB666114955 /* Pods_MessangerAppIngel.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +44,15 @@
 		044CE5F327A28D45003CFABC /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		044CE5F527A28D55003CFABC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		044CE5F727A294D1003CFABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		044CE5F927A2B6B9003CFABC /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		044CE5FB27A2B6C5003CFABC /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		044CE5FD27A2B6F0003CFABC /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		044CE5FF27A2B705003CFABC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		044CE60127A2B714003CFABC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		044CE60327A2B731003CFABC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		044CE60527A2B73E003CFABC /* UIButton+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Additions.swift"; sourceTree = "<group>"; };
+		044CE60727A2BB2B003CFABC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		044CE60927A2BDDC003CFABC /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		05D7E1B13F842E2D74E53099 /* Pods-MessangerAppIngel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerAppIngel.debug.xcconfig"; path = "Target Support Files/Pods-MessangerAppIngel/Pods-MessangerAppIngel.debug.xcconfig"; sourceTree = "<group>"; };
 		269F7B1006D78F4177B4EC9B /* Pods-MessangerAppIngel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessangerAppIngel.release.xcconfig"; path = "Target Support Files/Pods-MessangerAppIngel/Pods-MessangerAppIngel.release.xcconfig"; sourceTree = "<group>"; };
 		46EF2F23CD5DBDB666114955 /* Pods_MessangerAppIngel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessangerAppIngel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +104,7 @@
 		044CE5E527A28BA7003CFABC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				044CE60727A2BB2B003CFABC /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +129,11 @@
 		044CE5E927A28BE4003CFABC /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				044CE5FB27A2B6C5003CFABC /* AuthManager.swift */,
+				044CE60127A2B714003CFABC /* DatabaseManager.swift */,
+				044CE5F927A2B6B9003CFABC /* ErrorManager.swift */,
+				044CE5FD27A2B6F0003CFABC /* FirestoreManager.swift */,
+				044CE5FF27A2B705003CFABC /* StorageManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -117,9 +141,11 @@
 		044CE5EA27A28BEE003CFABC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				044CE5D127A28AC0003CFABC /* AppDelegate.swift */,
-				044CE5D327A28AC0003CFABC /* SceneDelegate.swift */,
 				044CE5DA27A28AC2003CFABC /* Assets.xcassets */,
+				044CE5D127A28AC0003CFABC /* AppDelegate.swift */,
+				044CE60327A2B731003CFABC /* Constants.swift */,
+				044CE60527A2B73E003CFABC /* UIButton+Additions.swift */,
+				044CE5D327A28AC0003CFABC /* SceneDelegate.swift */,
 				044CE5F727A294D1003CFABC /* GoogleService-Info.plist */,
 			);
 			path = Resources;
@@ -132,6 +158,7 @@
 				044CE5F327A28D45003CFABC /* DiscoverViewController.swift */,
 				044CE5F127A28D2C003CFABC /* NotificationsViewController.swift */,
 				044CE5F527A28D55003CFABC /* ProfileViewController.swift */,
+				044CE60927A2BDDC003CFABC /* TabBarViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -151,7 +178,6 @@
 				05D7E1B13F842E2D74E53099 /* Pods-MessangerAppIngel.debug.xcconfig */,
 				269F7B1006D78F4177B4EC9B /* Pods-MessangerAppIngel.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,14 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044CE5FA27A2B6B9003CFABC /* ErrorManager.swift in Sources */,
 				044CE5EE27A28D00003CFABC /* SignInViewController.swift in Sources */,
+				044CE60227A2B714003CFABC /* DatabaseManager.swift in Sources */,
+				044CE60627A2B73E003CFABC /* UIButton+Additions.swift in Sources */,
+				044CE60827A2BB2B003CFABC /* User.swift in Sources */,
 				044CE5D627A28AC0003CFABC /* HomeViewController.swift in Sources */,
+				044CE60027A2B705003CFABC /* StorageManager.swift in Sources */,
 				044CE5F427A28D45003CFABC /* DiscoverViewController.swift in Sources */,
 				044CE5D227A28AC0003CFABC /* AppDelegate.swift in Sources */,
+				044CE60A27A2BDDC003CFABC /* TabBarViewController.swift in Sources */,
 				044CE5F227A28D2C003CFABC /* NotificationsViewController.swift in Sources */,
 				044CE5D427A28AC0003CFABC /* SceneDelegate.swift in Sources */,
 				044CE5F627A28D55003CFABC /* ProfileViewController.swift in Sources */,
 				044CE5F027A28D0B003CFABC /* SignUpViewController.swift in Sources */,
+				044CE60427A2B731003CFABC /* Constants.swift in Sources */,
+				044CE5FC27A2B6C5003CFABC /* AuthManager.swift in Sources */,
+				044CE5FE27A2B6F0003CFABC /* FirestoreManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
