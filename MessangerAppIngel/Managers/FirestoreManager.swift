@@ -27,7 +27,7 @@ final class FirebaseManager {
                     K.FStore.Users.lastName: user.lastName,
                     K.FStore.Users.email: user.email,
                     K.FStore.Users.country: user.country,
-                    K.FStore.Users.profilePhotoUrl: user.profilePhotoUrl ?? ""
+                    K.FStore.Users.profilePhotoUrl: ""
                 ]) { error in
                     guard error == nil else {
                         completion(.failure(error!))
